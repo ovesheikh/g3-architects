@@ -220,6 +220,7 @@ header {
     filter: saturate(0%);
 }
 
+/* Footer Styles */
 footer {
     display: flex;
     justify-content: center;
