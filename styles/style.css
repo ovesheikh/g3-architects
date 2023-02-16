@@ -1,0 +1,229 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: #727272;
+}
+
+#main-btn {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Navbar and Header Styles*/
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.navbar h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.right-nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.header-title h1 {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-img img {
+    height: auto;
+    width: 73%;
+    padding: 40px;
+}
+
+/* Main Section Styles */
+/* Quick list style */
+.quick-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 220px;
+}
+
+.grid-team {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 60px;
+}
+
+.grid-item {
+    border: 5px solid white;
+    text-align: center;
+}
+
+
+/* Feature section styles */
+.features-des {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+.features-header {
+    font-weight: 700;
+    font-size: 25px;
+    border-left: 5px solid #FF900E;
+    margin-left: -10px;
+}
+.features-header h1{
+    padding-left: 10px;
+}
+
+.menu {
+    width: 45%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.architect-img img {
+    height: auto;
+    width: 90%;
+    padding-left: 80px;
+}
+
+.features-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+
+}
+
+/* Fact section styles */
+.facts {
+    margin: 50px 200px;
+}
+
+.facts h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.fact-card {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: #FF900E;
+    color: white;
+    border: 10px solid #FF900E;
+    border-radius: 10px;
+}
+
+/* Project Section Styles */
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+.grid-team-2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    padding-right: 60px;
+}
+
+.grid-item-2 {
+    border: 5px solid white;
+    text-align: center;
+}
+
+.grid-item-2 img {
+    height: auto;
+    width: 60%;
+}
+
+/* Sponsors Section Styles */
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors-img img {
+    color: #727272;
+    padding: 50px;
+    filter: saturate(0%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4E7;
+    margin: 30px 140px;
+    padding: 20px;
+}
